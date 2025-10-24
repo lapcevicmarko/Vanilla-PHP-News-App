@@ -28,7 +28,7 @@ A simple PHP-based news portal that allows users to register, log in, view categ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/lapcevicmarko/-Vanilla-PHP-News-App.git
+   git clone https://github.com/lapcevicmarko/Vanilla-PHP-News-App.git
 
 2. Import the SQL schema:
    - Open phpMyAdmin
@@ -44,7 +44,7 @@ A simple PHP-based news portal that allows users to register, log in, view categ
      
 4. Run the app:
    - Place files in your local server directory (e.g. htdocs)
-   - Access via http://localhost/-Vanilla-PHP-News-App/index.php
+   - Access via http://localhost/Vanilla-PHP-News-App/index.php
   
 ---
 
