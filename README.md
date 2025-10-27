@@ -57,20 +57,25 @@ A simple PHP-based news portal that allows users to register, log in, view categ
 
 ## File Structure
 
-- index.php              # Registration page
-- login.php              # Login page
-- userWelcome.php        # User dashboard
-- adminWelcome.php       # Admin dashboard
-- addNews.php            # Add news form
-- selectNews.php         # News listing
-- viewNews.php           # Single news view + comments
-- delNews.php            # Delete news
-- style.css              # Basic styling
-- Connection.php         # DB connection
-- News.class.php         # News logic
-- Comment.class.php      # Comment logic
-- User.class.php         # User logic
-- users.sql              # Database schema
+- index.php                 # Registration page
+- config/
+   - Connection.php         # DB connection
+- classes/
+   - User.class.php         # User logic
+   - News.class.php         # News logic
+   - Comment.class.php      # Comment logic
+- pages/
+   - login.php              # Login page
+   - adminWelcome.php       # Admin dashboard
+   - userWelcome.php        # User dashboard
+   - addNews.php            # Add news form
+   - delNews.php            # Delete news
+   - selectNews.php         # News listing
+   - viewNews.php           # Single news view + comments
+- assets/
+   - style.css              # Basic styling
+- database/
+   - users.sql              # Database schema
 
 ---
 
