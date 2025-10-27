@@ -79,6 +79,12 @@ A simple PHP-based news portal that allows users to register, log in, view categ
 
 ---
 
+## Database Dump Notice
+
+The `.sql` files included in this repository are exported from phpMyAdmin and contain only dummy data for demonstration purposes. No real user information, credentials, or sensitive data are present. These dumps are intended to showcase database structure and sample content for testing and development.
+
+---
+
 ## Licence
 
 This project is licensed under the MIT License.
